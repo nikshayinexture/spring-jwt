@@ -3,7 +3,9 @@ Spring Security with JWT Access and Refresh Token Project
 
 Application Testing:
 1. Run SpringJwtApplication.java file as a spring boot project.
+
 2. First we need to register a user, open Postman and send a POST request on localhost:8080/register to register a user.
+The database in SQL server will automatically created if it's not present and you'll have to register a new user every time you run the project because we've set ddl.auto as create-drop, you can change that according to your preference.
 
 Ex: 
 {
